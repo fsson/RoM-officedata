@@ -10157,18 +10157,6 @@
                 "nyval_tillatet": false,
                 "adresser": [
                     {
-                        "adressid": "333391",
-                        "adressrad": "Isafjordsgatan 19",
-                        "postnummer": "16440",
-                        "postort": "Kista",
-                        "koordinater": {
-                            "latitud": "59.40255",
-                            "longitud": "17.95012",
-                            "north": "6588590",
-                            "east": "667473"
-                        }
-                    },
-                    {
                         "adressid": "333393",
                         "adressrad": "Forshagagatan 38",
                         "postnummer": "12331",
@@ -10178,6 +10166,18 @@
                             "longitud": "18.088774",
                             "north": "6571591",
                             "east": "676146"
+                        }
+                    },
+                    {
+                        "adressid": "339375",
+                        "adressrad": "Kistagången 12",
+                        "postnummer": "16455",
+                        "postort": "Kista",
+                        "koordinater": {
+                            "latitud": "59.40516",
+                            "longitud": "17.952131",
+                            "north": "6588886",
+                            "east": "667574"
                         }
                     },
                     {
@@ -17604,6 +17604,18 @@
                         }
                     },
                     {
+                        "adressid": "339362",
+                        "adressrad": "Port-anders gata 9",
+                        "postnummer": "72212",
+                        "postort": "Västerås",
+                        "koordinater": {
+                            "latitud": "59.61034",
+                            "longitud": "16.553059",
+                            "north": "6609042",
+                            "east": "587637"
+                        }
+                    },
+                    {
                         "adressid": "334450",
                         "adressrad": "Nygatan 16B",
                         "postnummer": "73230",
@@ -17613,18 +17625,6 @@
                             "longitud": "15.84314",
                             "north": "6584400",
                             "east": "547883"
-                        }
-                    },
-                    {
-                        "adressid": "334451",
-                        "adressrad": "Vasagatan 15",
-                        "postnummer": "72215",
-                        "postort": "Västerås",
-                        "koordinater": {
-                            "latitud": "59.61066",
-                            "longitud": "16.54547",
-                            "north": "6609067",
-                            "east": "587208"
                         }
                     },
                     {
@@ -20066,18 +20066,6 @@
                 "rating": "3",
                 "nyval_tillatet": false,
                 "adresser": [
-                    {
-                        "adressid": "334781",
-                        "adressrad": "Sjöängsvägen 17",
-                        "postnummer": "19272",
-                        "postort": "Sollentuna",
-                        "koordinater": {
-                            "latitud": "59.460373",
-                            "longitud": "17.922895",
-                            "north": "6594957",
-                            "east": "665645"
-                        }
-                    },
                     {
                         "adressid": "335614",
                         "adressrad": "Solna Torg 19",

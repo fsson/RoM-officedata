@@ -27,6 +27,7 @@ def fetch_data(page):
         if not suppliers:
             return None
         return data
+    print(f'Request failed: status code {response.status_code}')
 
 def fetch_iterator():
     all_data = []
@@ -35,13 +36,19 @@ def fetch_iterator():
         print(f"Fetching from page {page}")
         data = fetch_data(page)
         if data is None:
-            print("Done.")
             return all_data
             break
         all_data.append(data)
         page += 1
 
-data = fetch_iterator()
-today = date.today()
-with open(f'rawdata/office_data_{today}.json', 'w', encoding='utf-8') as f:
-    json.dump(data, f, ensure_ascii=False, indent=4)
+def create_file():
+    data = fetch_iterator()
+    if data:
+        today = date.today()
+        with open(f"rawdata/office_data_{today}.json", "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=4)
+            print("File successfully created.")
+    if not data:
+        print(f"Something went wrong! File creation aborted.")
+
+create_file()
