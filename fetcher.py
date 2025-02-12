@@ -45,7 +45,7 @@ def create_file():
     data = fetch_iterator()
     if data:
         today = date.today()
-        with open(f"rawdata/office_data_{today}.json", "w", encoding="utf-8") as f:
+        with open(f"data/raw/office_data_{today}.json", "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
             print("File successfully created.")
     if not data:
