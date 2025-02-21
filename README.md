@@ -2,7 +2,7 @@
 
 This repo contains a collection of scripts that fetches, cleans and saves data on searchable private provider offices (providers of the labor market program "Rusta och Matcha") on the Swedish Public Employment Service [website](https://arbetsformedlingen.se/for-arbetssokande/extra-stod/stod-a-o/rusta-och-matcha/sok-leverantor-inom-rusta-och-matcha/).
 
-The data is fetched and stored automatically under `/data/raw` before being cleaned and combined under `/data/clean`
+The data is fetched and stored under `/data/raw` before being cleaned and combined under `/data/clean`
 
 ## How to use
 
