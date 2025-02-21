@@ -43,7 +43,7 @@ chmod +x run.sh
                 ]
             },
 ```
-### Example clean data
+### Example clean data:
 
 |id|namn|rating|nyval_tillatet|adressid|adressrad|postnummer|postort|koordinater.latitud|koordinater.longitud|koordinater.north|koordinater.east|observerad_datum|
 | ------------- |:-------------:| ------------- |:-------------:| ------------- |:-------------:| ------------- |:-------------:| ------------- |:-------------:| ------------- |:-------------:| ------------- |
